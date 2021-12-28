@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto, sans-serif;
+  background-color: black;
+  color: white;
+ 
+}
+
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+h3 {
+  margin: 30px 0;
+}
+
+.panel {
+  margin: 20px;
+}
+
+.panel-right {
+  width: 48%;
+  position: absolute;
+  top: 80%;
+  left: 25%;
+  transform: translate(-50%,-50%);
+  overflow: hidden;
+  margin: 40px auto 0;
+  text-align: center;
+  font-size: 30px;
+}
+
+.panel-left p {
+  font-size: 20px;
+}
+
+.panel h3 {
+  text-align: center;
+}
+
+h1,
+h3 {
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.select {
+  overflow: hidden;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1000px;
+  min-width: 800px;
+  
+}
+.select1{
+  position: absolute;
+  top: -200%;
+}
+
+.select img {
+  width: 200px;
+
+  margin-left: 20px;
+  
+
+}
+.panel-down{
+  width: 800px;
+  height: 320px;
+}
+
+.gamers{
+  width: 630px;
+  height: 210px;
+  position: absolute;
+  top: 55%;
+  left: 50.8%;
+  margin-top: 5%;
+  transform: translate(-50%,-50%);
+  
+}
+.player {
+  width: 205px;
+  height: 205px;
+  border: 2px solid white;
+  display: inline-block;
+}
+.vs{
+  width: 205px;
+  height: 205px;
+  font-size: 40px;
+  display: inline-block;
+}
+
+.ai {
+  width: 205px;
+  height: 205px;
+  border: 2px solid white; 
+  text-align: center;
+  display: inline-block;
+}
+
+
+
+img{
+  width: 200px;
+  height: 200px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.wait{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+@media (max-width: 768px) {
+  *{
+   font-size: 20px;
+   overflow: hidden;
+  } 
+  .gamers{
+    height: 500px;
+  }
+
+  .select{
+    position: absolute;
+    top:20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: inline-block;
+    width: 100px;
+  }
+  .player,
+  .ai{
+    width: 100px;
+    height: 100px;
+  }
+  .player{
+    position: absolute;
+    left: 20%;
+    top: 30%;
+  }
+  .ai{
+    position: absolute;
+    left: 60%;
+    top: 30%;
+  }
+  img{
+    width: 100px;
+    height: 100px;
+  }
+  .panel-down{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 500px;
+    height: 200px;
+    transform: translate(-50%,-50%);
+  }
+ }
+
+
+/* @media (min-width: 1024px) {
+  *{
+    font-size: 40px;
+  }
+} */ 

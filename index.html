@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="app/style.css">
+    <title>Rock Paper and Scissors</title>
+</head>
+
+<body>
+    <h1>Rock, Paper and Scissors</h1>
+
+    <div class="select">
+
+        <h3>Choose:</h3>
+
+        <img data-option="papier" class="first" src="img/papier.png" alt="" title="Papier" id='papier'>
+
+        <img data-option="kamień" src="img/kamień.png" alt="" title="Kamień" id='kamień'>
+
+        <img data-option="nożyczki" src="img/nożyce.png" alt="" title="nożyczki" id='nożyce'>
+
+    </div>
+    <div class="select1">
+
+        <h3>Wybór:</h3>
+
+        <img data-option="papier" class="first" src="img/papier.png" alt="" title="Papier" id='papier'>
+
+        <img data-option="kamień" src="img/kamień.png" alt="" title="Kamień" id='kamień'>
+
+        <img data-option="nożyczki" src="img/nożyce.png" alt="" title="nożyczki" id='nożyce'>
+
+    </div>
+    <div class="panel-right">
+        <p class="numbers">games: <span>0</span></p>
+        <p class="wins">wins: <span>0</span></p>
+        <p class="losses">losses: <span>0</span></p>
+        <p class="draws">draws: <span>0</span></p>
+    </div>
+
+    <div class='panel-down'>
+        <div class='gamers'>
+            <div class='player'></div>
+            <h1 class='vs'>vs</h1>
+            <div class='ai'></div>
+        </div>
+        <div class='wait'></div>
+
+    </div>
+    <div class='result'>
+        <h1 class='win'></h1>
+    </div>
+    <script src="app/MyChoice.js"></script>
+    <script src="app/Aichoice.js"></script>
+    <script src="app/Result.js"></script>
+    <script src="app/game.js"></script>
+    <script src="app/StartGame.js.js"></script>
+</body>
+
+</html>
